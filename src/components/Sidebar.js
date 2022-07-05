@@ -9,15 +9,8 @@ export default function Sidebar() {
     <>
       {!isOpen ?
         (<>
-          <svg
-            onClick={() => setIsOpen(!isOpen)}
-            className={`flex cursor-pointer item-center`}
-            fill='#2563EB'
-            viewBox='0 0 100 80'
-            width='40'
-            height='40'>
-            <DehazeIcon />
-          </svg>
+          <svg onClick={() => setIsOpen(!isOpen)}
+            className={`flex cursor-pointer item-center`} class="icon-mobile-nav " aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">      <path d="M2.00024 6H24.0002" stroke="currentColor" stroke-width="1.5"></path>      <path d="M2 13H24" stroke="currentColor" stroke-width="1.5"></path>      <path d="M2.00024 20H24.0002" stroke="currentColor" stroke-width="1.5"></path>    </svg>
           <Transition
             show={isOpen}
             enter="transition duration-100 ease-out"

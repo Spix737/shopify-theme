@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'openSans': ["Open Sans", "sans-serif"]
+        'openSans': ["Open Sans", "sans-serif"],
+        'galliard': ["ITC Galliard", "sans-serif"]
       },
     },
   },

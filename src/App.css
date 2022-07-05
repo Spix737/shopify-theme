@@ -32,7 +32,65 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.navbar-item {
+  display: hidden;
+  position: relative;
+  padding: 0.2em 0;
+  overflow: hidden;
+}
+
+.navbar-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #cdc9c0;
+  transform: translate3d(-100%, 0, 0);
+  transition: transform 500ms;
+}
+
+/* .navbar-item:focus::after */
+
+.navbar-item:hover::after {
+  transform: translate3d(0, 0, 0);
+}
+
+
+.search-bar {
+  display: hidden;
+  position: relative;
+  padding: 0.2em 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #eeece8;
+  border: transparent;
+  max-width: 140px;
+}
+
+.search-bar::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #cdc9c0;
+  transform: translate3d(-100%, 0, 0);
+  transition: transform 500ms;
+}
+
+.search-bar:focus::after {
+  border: transparent;
+  max-width: 190px;
+  box-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  transform: translate3d(0, 0, 0);
 }
