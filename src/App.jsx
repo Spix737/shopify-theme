@@ -45,61 +45,19 @@ function App() {
           </div>
 
           {/* gridShop */}
-          <div className='grid-cols-2 md:grid-cols-3'>
-
+          <div className='grid-cols-2 py-16 border border-l-0 border-r-0 md:grid-cols-3 border-b-1 border-b-[#cdc9c0]'>
+            <div className='flex flex-col items-center justify-center '>
+              <img onMouseOver={<h1>Expand Image</h1>} src="//cdn.shopify.com/s/files/1/0248/3425/products/pouch-espresso-1_450x450.jpg?v=1590446774" alt="" data-rimg="loaded" data-rimg-scale="1" data-rimg-template="//cdn.shopify.com/s/files/1/0248/3425/products/pouch-espresso-1_{size}.jpg?v=1590446774" data-rimg-max="2375x2375" data-rimg-crop="false" srcset="//cdn.shopify.com/s/files/1/0248/3425/products/pouch-espresso-1_576x576.jpg?v=1590446774 2.00x" data-rimg-template-svg="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='450'%20height='450'></svg>"></img>
+              <a><h3 className='pb-3 text-xl font-galliard'>Espresso</h3></a>
+              <p className='text-sm'>from $25.00</p>
+            </div>
           </div>
 
           {/* grid2 articles */}
           <div className='grid-cols-1 md:grid-cols-2'>
-
+            
           </div>
 
-          {/* subscribe */}
-          <p>Join The Family</p>
-          <p>Sign up to our newsletter to receive updates about our future roasts!</p>
-
-          <form>Email address</form>
-          <button>SUBSCRIBE</button>
-
-          {/* links */}
-          <div className='grid-col-1 md:grid-col-3'>
-
-          </div>
-
-          {/* Footer */}
-          <p>© 2022 <span>Editions Modern.</span><span> Shopping Cart by Shopify</span></p>
-          {/* DROPDOWN */}
-
-          {/* subscribe */}
-          <p>Join The Family</p>
-          <p>Sign up to our newsletter to receive updates about our future roasts!</p>
-
-          <form>Email address</form>
-          <button>SUBSCRIBE</button>
-
-          {/* links */}
-          <div className='grid-col-1 md:grid-col-3'>
-
-          </div>
-
-          {/* Footer */}
-          <p>© 2022 <span>Editions Modern.</span><span> Shopping Cart by Shopify</span></p>
-          {/* DROPDOWN */}
-          {/* subscribe */}
-          <p>Join The Family</p>
-          <p>Sign up to our newsletter to receive updates about our future roasts!</p>
-
-          <form>Email address</form>
-          <button>SUBSCRIBE</button>
-
-          {/* links */}
-          <div className='grid-col-1 md:grid-col-3'>
-
-          </div>
-
-          {/* Footer */}
-          <p>© 2022 <span>Editions Modern.</span><span> Shopping Cart by Shopify</span></p>
-          {/* DROPDOWN */}
           {/* subscribe */}
           <p>Join The Family</p>
           <p>Sign up to our newsletter to receive updates about our future roasts!</p>
