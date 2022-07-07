@@ -45,7 +45,7 @@ function App() {
           </div>
 
           {/* gridShop */}
-          <div className='grid-cols-2 py-16 border border-l-0 border-r-0 md:grid-cols-3 border-b-1 border-b-[#cdc9c0]'>
+          <div className='grid-cols-2 text-[#46321e] py-16 border border-l-0 border-r-0 md:grid-cols-3 border-b-1 border-b-[#cdc9c0]'>
             <div className='flex flex-col items-center justify-center '>
               <img onMouseOver={<h1>Expand Image</h1>} src="//cdn.shopify.com/s/files/1/0248/3425/products/pouch-espresso-1_450x450.jpg?v=1590446774" alt="" data-rimg="loaded" data-rimg-scale="1" data-rimg-template="//cdn.shopify.com/s/files/1/0248/3425/products/pouch-espresso-1_{size}.jpg?v=1590446774" data-rimg-max="2375x2375" data-rimg-crop="false" srcset="//cdn.shopify.com/s/files/1/0248/3425/products/pouch-espresso-1_576x576.jpg?v=1590446774 2.00x" data-rimg-template-svg="data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='450'%20height='450'></svg>"></img>
               <a><h3 className='pb-3 text-xl font-galliard'>Espresso</h3></a>
@@ -54,16 +54,26 @@ function App() {
           </div>
 
           {/* grid2 articles */}
-          <div className='grid-cols-1 md:grid-cols-2'>
-            
+          <div className='grid-cols-1 text-[#46321e] py-16 md:grid-cols-2'>
+            <div className='flex flex-col items-center justify-center space-y-3'>
+              <p className='text-xs tracking-wider uppercase'>August 07, 2020</p>
+              <div className='flex flex-col items-center space-y-4'>
+                <h1 className='text-2xl font-galliard'>4 ways to elevate your morning routine</h1>
+                <img className='max-w-lg' src='https://cdn.shopify.com/s/files/1/0248/3425/articles/editions-modern-blog-1_800x544.jpg?v=1596844017' alt='coffee-drinkers'></img>
+                <p className='text-left'>There are many simple ways to practice mindfulness and it all starts with the perfect morning routine to utilize your time and energy to the best of its ability. Here are 4 things that you can start your day with!</p>
+              </div>
+              <a className='self-start text-left underline underline-offset-8 hover:underline-offset-4'>Continue reading</a>
+            </div>
           </div>
 
           {/* subscribe */}
-          <p>Join The Family</p>
-          <p>Sign up to our newsletter to receive updates about our future roasts!</p>
+          <div className='py-10 border border-b-1 border-l-0 border-r-0 border-t-1 text-[#46321e] border-[#cdc9c0]'>
+            <h1 className='text-2xl font-galliard'>Join The Family</h1>
+            <p>Sign up to our newsletter to receive updates about our future roasts!</p>
 
-          <form>Email address</form>
-          <button>SUBSCRIBE</button>
+            <form>Email address</form>
+            <button>SUBSCRIBE</button>
+          </div>
 
           {/* links */}
           <div className='grid-col-1 md:grid-col-3'>
